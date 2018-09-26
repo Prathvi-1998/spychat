@@ -1,8 +1,8 @@
 class Spy:
-    def __init__(self,name,age,salutation,rating):
+    def __init__(self,name,salutation,age,rating):
         self.name=name
-        self.age=age
         self.salutation=salutation
+        self.age=age
         self.rating=rating
         self.is_online=True
         self.current_status_message = None

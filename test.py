@@ -288,3 +288,52 @@
 
 #q.dequeue()
 #print(q.item)
+
+#######################    sorting  ########
+#def linear_search(a,item):
+#    found=False
+#    for ele in a:
+#        if ele ==item:
+#            found=True
+
+#    return found
+
+#b=[10,20,25,6,90,56,43]
+#a=int(input('Enter a no u search:'))
+#print(linear_search(b,a))
+
+
+
+#binary search
+
+#def binary_search(a,item):
+#    f=0
+#    l=len(a)-1
+#    found=False
+
+#    while f<=l and not found:
+#        mid =(f+l)/2
+#        if a[mid]==item:
+#            found=True
+
+#        else:
+
+#            if item>a[mid]:
+#                l=mid-1
+#    return found
+#a=[10,20,30,55,60]
+##print(list(a))
+#item=input('Enter u want to search: ')
+#print(binary_search(a,item))
+
+###
+#def bubble_sort(a):
+#    for passnum in range(len(a)-1,0,-1):
+#        for i in range(passnum):
+#            if a[i]>a[i+1]:
+#                temp=a[i]
+#                a[i]=a[i+1]
+#                a[i+1]=temp
+#a=[40,30,20,10,9,62,45,35]
+#ubble_sort(a)
+#print a
